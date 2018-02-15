@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_admin_insights'
-  s.version     = '3.4'
+  s.version     = '3.4.1'
   s.summary     = 'Add some reporting to admin section. '
   s.description = 'Track what product being viewed, what being purchased. Who are consistant buyers etc.'
   s.required_ruby_version = '>= 2.1.0'
@@ -36,6 +36,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-matchers', '~> 2.6.2'
   s.add_development_dependency 'spree_backend', spree_version
   s.add_development_dependency 'spree_frontend', spree_version
-  s.add_dependency 'wicked_pdf', '~> 1.0.6'
-  s.add_dependency 'wkhtmltopdf-binary', '~> 0.9.9.3'
+  s.add_dependency 'wicked_pdf', '~> 1.1.0'
+  s.add_dependency 'wkhtmltopdf-binary', '~> 0.12.2.1'
 end
