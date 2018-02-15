@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_admin_insights'
-  s.version     = '3.2.0'
+  s.version     = '3.4'
   s.summary     = 'Add some reporting to admin section. '
   s.description = 'Track what product being viewed, what being purchased. Who are consistant buyers etc.'
   s.required_ruby_version = '>= 2.1.0'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '~> 3.2.0'
+  spree_version = '~> 3.4'
 
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_events_tracker', '~> 3.2'
